@@ -1,0 +1,40 @@
+section {
+    display: flex;
+    margin-top: 60px;
+}
+
+.content {
+    text-align: left;
+    text-indent: 1em;
+    margin-right: 60px;
+}
+
+.menu {
+    height: 168px;
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: bold;
+    background: #d4f1fe;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.menu ul {
+    width: 200px;
+    margin: 0;
+    padding: 22px 0 17px;
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 10px;
+    margin: 0 5px 5px;
+    background: #ADD8EB;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.menu a {
+    color: #021428;
+}
